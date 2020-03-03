@@ -7,7 +7,7 @@
 </div>  
 
 # [Valgrind Docker](https://github.com/KnowledgePending/Valgrind-Docker)
-[![Docker Pulls](https://img.shields.io/docker/pulls/bryankp/valgrind-docker.svg)](https://hub.docker.com/r/bryankp/valgrind-docker)
+[![Docker Pulls](https://img.shields.io/docker/pulls/bryankp/valgrind.svg)](https://hub.docker.com/r/bryankp/valgrind)
 
 Valgrind docker for dynamic analysis of clang and gcc binaries.
 
@@ -20,22 +20,22 @@ Valgrind docker for dynamic analysis of clang and gcc binaries.
 ## Option 1. Build Docker Image
 * From within the directory of the Dockerfile execute the following command to build the image
 ```BASH
-docker build -t valgrind-docker .
+docker build -t valgrind .
 ```
 * To run with bash and a shared volume
 ```BASH
-docker run -v <host_path>:<container_path> -ti valgrind-docker:latest bash
+docker run -v <host_path>:<container_path> -ti valgrind:latest bash
 ```
 ## Option 2. Pull image from Docker Hub
-* Go to the repository page [bryankp/valgrind-docker](https://hub.docker.com/r/bryankp/valgrind-docker)
+* Go to the repository page [bryankp/valgrind](https://hub.docker.com/r/bryankp/valgrind)
 * Pull the latest image
 ```BASH
-docker pull bryankp/valgrind-docker:latest
+docker pull bryankp/valgrind:latest
 ```
 
 * To run with bash and a shared volume
 ```BASH
-docker run -v <host_path>:<container_path> -ti bryankp/valgrind-docker:latest bash
+docker run -v <host_path>:<container_path> -ti bryankp/valgrind:latest bash
 ```
 
 
