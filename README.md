@@ -1,6 +1,6 @@
 <!-- Add padding between images -->
 <div>
-    <img src="https://raw.githubusercontent.com/KnowledgePending/valgrind-docker/master/images/valgrind-logo.jpg" display="inline-block"
+    <img src="https://github.com/KnowledgePending/Valgrind-Docker/blob/master/images/valgrind-logo.jpg?raw=true" display="inline-block"
     margin-left="auto"
     margin-right="auto"
     width="66%" ></img>
