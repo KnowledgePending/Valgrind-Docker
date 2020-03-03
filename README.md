@@ -9,7 +9,7 @@
 # [Valgrind Docker](https://github.com/KnowledgePending/Valgrind-Docker)
 [![Docker Pulls](https://img.shields.io/docker/pulls/bryankp/valgrind-docker.svg)](https://hub.docker.com/r/bryankp/valgrind-docker)
 
-
+Valgrind docker for dynamic analysis of clang and gcc binaries.
 
 ## Image details
 * GCC 9.2
